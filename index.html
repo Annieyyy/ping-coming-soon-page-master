@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Libre Franklin:300,600,700' rel='stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+  <title>Frontend Mentor | Ping coming soon page</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<!--   <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  
+  <div class="wrapper">
+    <div class="header">
+      <div class="logo">
+       <img src="./images/logo.svg" alt="">
+       </div>
+      <div class="title">
+        <h1><span>We are launching </span>soon!</h1>
+        <p>Subscribe and get notified</p>
+      </div>
+    </div>
+    <form>
+      <div class="formInput">
+        <label for ="email"></label>
+        <input class="formEmail" id = "formEmail" type="text" placeholder="Your email address...">
+        <div class="EmailCheck" id="emailCheck"></div>
+      </div>
+      <div class="formBtn">
+        <input type="button" name="" value= "Notify Me" onclick="return check()">
+      </div>
+    </form>
+    <div class="content">
+      <img src="./images/illustration-dashboard.png">
+    </div>
+    <footer>
+      <div class="footer-media">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+       <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Annie</a>.
+    </p>
+    </footer>
+  </div>
+  <script src = "index.js"></script>
+</body>
+</html>
