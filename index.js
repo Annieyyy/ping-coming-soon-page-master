@@ -20,7 +20,7 @@ function check(){
 }
 // id = emailCheck
 function changeStyle(id,info){
-	emailCheck.style.color = "hsl(354, 100%, 66%)";
+	id.style.color = "hsl(354, 100%, 66%)";
 	id.innerHTML=info;
 	formEmail.style.borderColor="hsl(354, 100%, 66%)";
 	formEmail.setAttribute("placeholder","example@email.com");
