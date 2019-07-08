@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Libre Franklin:300,600,700");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+html, body {
+  width: 1440px;
+  font-size: 20px;
+  font-family: 'Libre Franklin'; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .wrapper .header .logo {
+    margin: 10% 0;
+    text-align: center; }
+  .wrapper .header .title {
+    text-align: center; }
+    .wrapper .header .title span {
+      font-weight: 300;
+      color: #969696; }
+    .wrapper .header .title p {
+      margin-top: 5%; }
+  .wrapper form {
+    margin-top: 2%;
+    display: flex; }
+    .wrapper form .formInput {
+      margin-right: 3%; }
+      .wrapper form .formInput .formEmail {
+        height: auto;
+        width: 400px;
+        border: 2px solid #c2d3ff;
+        border-radius: 50px;
+        opacity: 0.5;
+        padding: 5% 0 4% 5%; }
+      .wrapper form .formInput .formEmail:focus {
+        outline: none; }
+      .wrapper form .formInput .formEmail::placeholder {
+        font-size: 1.5em;
+        color: #969696;
+        opacity: 0.5; }
+      .wrapper form .formInput .EmailCheck {
+        height: auto;
+        width: 400px;
+        font-size: 12px;
+        padding: 2% 5%;
+        color: #ff5263; }
+    .wrapper form .formBtn input {
+      height: 51px;
+      width: 200px;
+      border: 1px solid #4f7df3;
+      border-radius: 50px;
+      background-color: #4f7df3;
+      box-shadow: 0 5px 5px rgba(135, 206, 235, 0.3);
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 500;
+      cursor: pointer; }
+    .wrapper form .formBtn input:focus {
+      outline: none; }
+  .wrapper .content {
+    margin-top: 2%; }
+    .wrapper .content img {
+      height: 350px;
+      width: 600px; }
+  .wrapper footer .footer-media {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center; }
+    .wrapper footer .footer-media a {
+      cursor: pointer;
+      margin-right: 5%; }
+      .wrapper footer .footer-media a i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 70%;
+        height: 30px;
+        width: 30px;
+        color: #4f7df3;
+        border: 1px solid rgba(190, 190, 190, 0.5);
+        border-radius: 50%; }
+        .wrapper footer .footer-media a i:hover {
+          color: #ffffff;
+          background-color: #4f7df3; }
+  .wrapper footer p {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 60%;
+    color: #969696; }
+  .wrapper footer .attribution {
+    font-size: 11px; }
+    .wrapper footer .attribution a {
+      color: #3e52a3; }
+
+@media (max-width: 375px) {
+  .wrapper .header {
+    width: 90%; }
+    .wrapper .header .logo img {
+      margin-top: 8%;
+      height: 10%;
+      width: 20%; }
+    .wrapper .header .title h1 {
+      font-size: 80px; }
+    .wrapper .header .title p {
+      font-size: 50px; }
+  .wrapper form {
+    flex-direction: column; }
+    .wrapper form .formInput {
+      margin-top: 10%; }
+      .wrapper form .formInput input {
+        font-size: 50px; }
+      .wrapper form .formInput .formEmail {
+        height: 150px;
+        width: 1000px;
+        border-radius: 100px;
+        opacity: 1;
+        padding-left: 8%; }
+      .wrapper form .formInput .formEmail::placeholder {
+        font-size: 2.5rem;
+        color: #969696; }
+      .wrapper form .formInput .EmailCheck {
+        width: 1000px;
+        font-size: 50px;
+        padding-left: 8%;
+        text-align: center; }
+    .wrapper form .formBtn input {
+      height: 150px;
+      width: 1000px;
+      border-radius: 100px;
+      box-shadow: 0 15px 15px rgba(135, 206, 235, 0.7);
+      background-color: #4f7df3;
+      font-size: 50px; }
+  .wrapper .content {
+    margin-top: 15%; }
+    .wrapper .content img {
+      height: 800px;
+      width: 1296px; }
+  .wrapper footer .footer-media {
+    margin-top: 50%; }
+    .wrapper footer .footer-media a i {
+      font-size: 2.5rem;
+      height: 100px;
+      width: 100px; }
+  .wrapper footer p {
+    margin-top: 10%;
+    font-size: 2rem; }
+  .wrapper footer .attribution {
+    margin-top: 20px;
+    font-size: 30px; } }
+
+/*# sourceMappingURL=style.css.map */

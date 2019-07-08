@@ -1,0 +1,150 @@
+
+@import "color";
+@import url('https://fonts.googleapis.com/css?family=Libre Franklin:300,600,700');
+
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+
+}
+
+html,body{
+	width: 1440px;
+	font-size:20px;
+	font-family: 'Libre Franklin';
+}
+
+.wrapper{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;	
+
+	.header{
+		.logo{
+			margin: 10% 0;
+			text-align: center;
+		}
+		.title{
+			text-align: center;
+			span{
+				font-weight: 300;
+				color:$Gray;
+			}
+			p{
+				margin-top: 5%;
+			}
+		}
+	}
+
+	form{
+		margin-top: 2%;
+		display:flex;
+		.formInput{
+			margin-right: 3%;
+			.formEmail{
+				height: auto;
+				width: 400px;
+				border:2px solid $paleBlue;
+				border-radius: 50px;
+				opacity:0.5;
+				padding:5% 0 4% 5%;
+			}
+			.formEmail:focus{
+				outline:none;
+			}
+			.formEmail::placeholder{
+				font-size:1.5em;
+				color:$Gray;
+				opacity:0.5;
+			}
+			.EmailCheck{
+				height: auto;
+				width: 400px;
+				font-size: 12px;
+				padding: 2% 5%;
+				color:$lRed;
+			}
+		}
+
+		.formBtn{
+			input{
+				height:51px;
+				width: 200px;
+				border:1px solid $Blue;
+				border-radius: 50px;
+				background-color: $Blue;
+				box-shadow: 0 5px 5px rgba(135,206,235,.3) ;
+				color:#ffffff;
+				font-size:15px;
+				font-weight: 500;
+				cursor: pointer;
+			}
+			input:focus{
+				outline:none;
+			}
+		}
+	}
+
+	.content{
+		margin-top: 2%;
+		img{
+			height: 350px;
+			width: 600px;
+		}
+	}
+
+	footer{
+		.footer-media{
+			margin-top: 8%;
+			display:flex;
+			justify-content:center;
+			a{
+				cursor: pointer;
+				margin-right:5%;
+				i{
+					display:flex;
+					justify-content: center;
+					align-items: center;
+					text-align: center;
+					font-size:70%;
+					height: 30px;
+					width: 30px;
+					color:$Blue;
+					border:1px solid rgba(190, 190, 190, .5);
+					border-radius:50%;
+					&:hover{
+						color:#ffffff;
+						background-color:$Blue;
+					}
+				}
+
+			}
+		}
+
+		p{
+			text-align: center;
+			margin-top: 10%;
+			font-size:60%;
+			color: $Gray; 
+		}
+
+		.attribution {
+			font-size: 11px;
+			a { 
+				color: hsl(228, 45%, 44%); 
+			}
+
+		} 
+	}
+}
+@import "mobile.scss";
+
+
+
+
+
+

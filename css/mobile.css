@@ -1,0 +1,57 @@
+@media (max-width: 375px) {
+  .wrapper .header {
+    width: 90%; }
+    .wrapper .header .logo img {
+      margin-top: 8%;
+      height: 10%;
+      width: 20%; }
+    .wrapper .header .title h1 {
+      font-size: 80px; }
+    .wrapper .header .title p {
+      font-size: 50px; }
+  .wrapper form {
+    flex-direction: column; }
+    .wrapper form .formInput {
+      margin-top: 10%; }
+      .wrapper form .formInput input {
+        font-size: 50px; }
+      .wrapper form .formInput .formEmail {
+        height: 150px;
+        width: 1000px;
+        border-radius: 100px;
+        opacity: 1;
+        padding-left: 8%; }
+      .wrapper form .formInput .formEmail::placeholder {
+        font-size: 2.5rem;
+        color: #969696; }
+      .wrapper form .formInput .EmailCheck {
+        width: 1000px;
+        font-size: 50px;
+        padding-left: 8%;
+        text-align: center; }
+    .wrapper form .formBtn input {
+      height: 150px;
+      width: 1000px;
+      border-radius: 100px;
+      box-shadow: 0 15px 15px rgba(135, 206, 235, 0.7);
+      background-color: #4f7df3;
+      font-size: 50px; }
+  .wrapper .content {
+    margin-top: 15%; }
+    .wrapper .content img {
+      height: 800px;
+      width: 1296px; }
+  .wrapper footer .footer-media {
+    margin-top: 50%; }
+    .wrapper footer .footer-media a i {
+      font-size: 2.5rem;
+      height: 100px;
+      width: 100px; }
+  .wrapper footer p {
+    margin-top: 10%;
+    font-size: 2rem; }
+  .wrapper footer .attribution {
+    margin-top: 20px;
+    font-size: 30px; } }
+
+/*# sourceMappingURL=mobile.css.map */
