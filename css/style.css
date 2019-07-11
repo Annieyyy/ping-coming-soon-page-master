@@ -98,60 +98,55 @@ html, body {
     .wrapper footer .attribution a {
       color: #3e52a3; }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
+  html,
+  body {
+    width: auto; }
+
   .wrapper .header {
     width: 90%; }
     .wrapper .header .logo img {
       margin-top: 8%;
-      height: 10%;
-      width: 20%; }
+      height: 5%;
+      width: 15%; }
     .wrapper .header .title h1 {
-      font-size: 80px; }
+      font-size: 25px; }
     .wrapper .header .title p {
-      font-size: 50px; }
+      font-size: 15px; }
   .wrapper form {
+    width: 85%;
     flex-direction: column; }
     .wrapper form .formInput {
-      margin-top: 10%; }
+      margin-top: 10%;
+      margin-right: 0; }
       .wrapper form .formInput input {
-        font-size: 50px; }
+        font-size: 0.8rem; }
       .wrapper form .formInput .formEmail {
-        height: 150px;
-        width: 1000px;
+        height: 50px;
+        width: 100%;
         border-radius: 100px;
         opacity: 1;
         padding-left: 8%; }
       .wrapper form .formInput .formEmail::placeholder {
-        font-size: 2.5rem;
+        font-size: 0.8rem;
         color: #969696; }
       .wrapper form .formInput .EmailCheck {
-        width: 1000px;
-        font-size: 50px;
+        width: 100%;
         padding-left: 8%;
         text-align: center; }
     .wrapper form .formBtn input {
-      height: 150px;
-      width: 1000px;
+      height: 50px;
+      width: 100%;
       border-radius: 100px;
       box-shadow: 0 15px 15px rgba(135, 206, 235, 0.7);
-      background-color: #4f7df3;
-      font-size: 50px; }
+      background-color: #4f7df3; }
   .wrapper .content {
     margin-top: 15%; }
     .wrapper .content img {
-      height: 800px;
-      width: 1296px; }
+      height: 30%;
+      width: 100%;
+      padding: 5%; }
   .wrapper footer .footer-media {
-    margin-top: 50%; }
-    .wrapper footer .footer-media a i {
-      font-size: 2.5rem;
-      height: 100px;
-      width: 100px; }
-  .wrapper footer p {
-    margin-top: 10%;
-    font-size: 2rem; }
-  .wrapper footer .attribution {
-    margin-top: 20px;
-    font-size: 30px; } }
+    margin-top: 50%; } }
 
 /*# sourceMappingURL=style.css.map */
